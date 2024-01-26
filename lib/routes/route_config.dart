@@ -4,7 +4,7 @@
 // import 'package:newware_final_project/ui/pages/auth/signin/signup_page.dart';
 // import 'package:newware_final_project/ui/pages/auth/signup/signup_page.dart';
 // import 'package:newware_final_project/ui/pages/change_language/language_page.dart';
-// import 'package:newware_final_project/ui/pages/home/home_page.dart';
+// import 'package:newware_final_project/ui/pages/home/profile_page.dart';
 // import 'package:newware_final_project/ui/pages/main/main_page.dart';
 // import 'package:newware_final_project/ui/pages/notification/notification_page.dart';
 // import 'package:newware_final_project/ui/pages/onboarding/onboarding_page.dart';

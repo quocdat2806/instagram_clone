@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_clone/ui/pages/signin/widgets/footer/footer.dart';
-import 'package:instagram_clone/ui/pages/signin/widgets/header/header.dart';
-import 'package:instagram_clone/ui/pages/signin/widgets/middle_content/middle_content.dart';
+import 'package:instagram_clone/ui/pages/auth/signin/widgets/footer/footer.dart';
+import 'package:instagram_clone/ui/pages/auth/signin/widgets/header/header.dart';
+import 'package:instagram_clone/ui/pages/auth/signin/widgets/middle_content/middle_content.dart';
 
 class SignIn extends StatefulWidget {
   const SignIn({super.key});

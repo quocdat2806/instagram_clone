@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_clone/ui/pages/signin/signin_page.dart';
-import 'package:instagram_clone/ui/pages/signup/signup_page.dart';
+import 'package:instagram_clone/ui/pages/auth/signup/signup_page.dart';
+import 'package:instagram_clone/ui/pages/home/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,11 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SignUp(),
+      home: const HomePage(),
     );
   }
 }
